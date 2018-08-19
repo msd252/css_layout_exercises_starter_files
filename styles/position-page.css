@@ -56,6 +56,11 @@ nav li::after {
   margin-left: 5px;
 }
 
+nav a:hover {
+  color: black;
+}
+
+
 html {
   background: url('../images/outerspace_landscape.jpeg') no-repeat center center fixed;
   -webkit-background-size: cover;
