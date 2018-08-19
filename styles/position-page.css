@@ -42,13 +42,18 @@ nav {
   bottom: -100px;
 }
 
-nav > ul {
+nav ul {
   margin-left: 50px;
 }
 
-nav > ul > li {
+nav li {
   display: inline;
   text-decoration: underline;
+}
+
+nav li::after {
+  content: "|";
+  margin-left: 5px;
 }
 
 html {
